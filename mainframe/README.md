@@ -22,3 +22,13 @@ A native Android/Termux S/390 emulator executable and an MVS installation
 have not yet been added.
 
 Do not redistribute proprietary IBM operating-system images.
+
+## MUSIC/SP
+
+PERFECT-OS also provides a MUSIC/SP compatibility/integration layer
+under `mainframe/musicsp/`.
+
+The layer provides emulator detection, configuration, boot structure,
+documentation, and future AI/mainframe tooling.
+
+No MUSIC/SP operating-system image is distributed by PERFECT-OS.
