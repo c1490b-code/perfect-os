@@ -1,13 +1,20 @@
 # PERFECT-OS Drivers
 
-Drivers connect PERFECT-OS to physical and virtual hardware.
+Hardware driver framework.
 
-Initial driver families:
+Driver families:
 
-- CPU
-- Memory
-- PCI
-- Storage
-- Display
-- Input
-- Network
+CPU
+Memory
+PCI
+Storage
+Display
+Input
+Network
+USB
+Audio
+Sensors
+Camera
+Power
+Thermal
+Virtual devices

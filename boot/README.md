@@ -1,10 +1,12 @@
 # PERFECT-OS Boot
 
-The boot subsystem will eventually provide:
+Boot infrastructure.
 
-- Bootloader
-- Hardware initialization
-- Kernel loading
-- Initial RAM disk
-- Secure boot integration
-- Architecture-specific startup
+Targets:
+
+- BIOS
+- UEFI
+- x86_64
+- ARM64
+- Virtual machines
+- Embedded systems

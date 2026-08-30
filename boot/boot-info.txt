@@ -1,0 +1,19 @@
+PERFECT-OS BOOT SYSTEM
+
+Stage 1:
+Hardware initialization
+
+Stage 2:
+Bootloader
+
+Stage 3:
+Kernel loading
+
+Stage 4:
+Kernel initialization
+
+Stage 5:
+System services
+
+Stage 6:
+User environment
