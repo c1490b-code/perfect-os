@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import sys
+from pathlib import Path
+
+CORE = Path(__file__).resolve().parents[1] / "core"
+sys.path.insert(0, str(CORE))
+
+from musicsp_ai import answer
+
+command = " ".join(sys.argv[1:]) or "status"
+result = answer(command)
+
+import json
+print(json.dumps(result, indent=2))

@@ -1,0 +1,8 @@
+vendor/phantomuserland/run/qemu/0.13.0/bios/s390-zipl.rom
+vendor/phantomuserland/run/qemu/0.14.1/bios/s390-zipl.rom
+vendor/phantomuserland/run/qemu/0.15.1/bios/s390-zipl.rom
+vendor/phantomuserland/run/qemu/0.15.1/bios/slof.bin
+vendor/phantomuserland/run/qemu/0.15.1/bios/spapr-rtas.bin
+vendor/phantomuserland/run/qemu/1.0.1/Bios/s390-zipl.rom
+vendor/phantomuserland/run/qemu/1.0.1/Bios/slof.bin
+vendor/phantomuserland/run/qemu/1.0.1/Bios/spapr-rtas.bin
