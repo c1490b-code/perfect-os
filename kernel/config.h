@@ -1,0 +1,13 @@
+#ifndef PERFECT_OS_CONFIG_H
+#define PERFECT_OS_CONFIG_H
+
+#define PERFECT_OS_NAME "PERFECT-OS"
+#define PERFECT_OS_VERSION "0.1.0"
+#define PERFECT_OS_ARCH "host"
+
+#define PERFECT_OS_AI 1
+#define PERFECT_OS_NETWORK 1
+#define PERFECT_OS_SECURITY 1
+#define PERFECT_OS_DEVTOOLS 1
+
+#endif
