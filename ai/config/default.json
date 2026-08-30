@@ -1,0 +1,9 @@
+{
+  "name": "PERFECT-OS AI Platform",
+  "runtime": true,
+  "inference": true,
+  "memory": true,
+  "agents": true,
+  "assistants": true,
+  "security": true
+}
