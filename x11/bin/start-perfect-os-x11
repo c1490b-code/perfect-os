@@ -1,0 +1,35 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+ROOT="$HOME/PERFECT-OS"
+
+export PERFECT_OS_ROOT="$ROOT"
+export PERFECT_OS_X11=1
+export DISPLAY=:0
+export XDG_RUNTIME_DIR="$PREFIX/tmp/runtime"
+
+mkdir -p "$XDG_RUNTIME_DIR"
+chmod 700 "$XDG_RUNTIME_DIR"
+
+echo "=== PERFECT OS X11 SESSION ==="
+echo "ROOT    : $PERFECT_OS_ROOT"
+echo "DISPLAY : $DISPLAY"
+echo "ARCH    : $(uname -m)"
+echo "OS      : $(uname -o 2>/dev/null || uname -s)"
+
+if command -v termux-x11 >/dev/null 2>&1; then
+    echo "Termux:X11 command: OK"
+else
+    echo "Termux:X11 command not found"
+fi
+
+echo
+echo "Starting PERFECT OS X11 environment..."
+
+if command -v xclock >/dev/null 2>&1; then
+    xclock >/dev/null 2>&1 &
+fi
+
+echo
+echo "=== X11 READY ==="
+echo "PERFECT OS workspace: $ROOT"
